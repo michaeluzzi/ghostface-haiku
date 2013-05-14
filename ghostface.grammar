@@ -1,0 +1,172 @@
+# syntax
+
+Five -> NP5
+Five -> VP5
+Seven -> NP4 VP3
+Seven -> NP3 VP4
+Seven -> NP2 VP5
+Seven -> VP2 NP5
+Seven -> VP3 NP4
+Seven -> VP4 NP3
+Seven -> VP5 NP2
+
+NP5 -> Inter1 NP4
+NP5 -> NP4 Inter1
+NP5 -> Inter2 NP3
+NP5 -> Inter2 Npl3
+NP5 -> Adj1 N4
+NP5 -> Adj2 N3
+NP5 -> Adj2 Npl3
+NP5 -> Adj3 N2
+NP5 -> Adj3 Npl2
+NP5 -> Adj4 N1
+NP5 -> Adj4 Npl1
+NP5 -> Art1 N4
+
+NP2 -> N2
+NP2 -> Npl2
+NP2 -> Art1 N1
+NP2 -> Art1pl Npl1
+NP2 -> Adj1 N1
+NP2 -> Adj1 Npl1
+
+NP3 -> N3
+NP3 -> Npl3
+NP3 -> Adj1 N2
+NP3 -> Adj1 Npl2
+NP3 -> Adj2 N1
+NP3 -> Adj2 Npl1
+NP3 -> Art1 N2
+NP3 -> Art1pl Npl2
+NP3 -> Art1 Adj1 N1
+NP3 -> Art1pl Adj1 Npl1
+
+NP4 -> N4
+NP4 -> Adj1 N3
+NP4 -> Adj1 Npl3
+NP4 -> Adj2 N2
+NP4 -> Adj2 Npl2
+NP4 -> Adj3 N1
+NP4 -> Adj3 Npl1
+NP4 -> Art1 N3
+NP4 -> Art1 Npl3
+NP4 -> Art1 Adj1 N2
+NP4 -> Art1 Adj1 Npl2
+NP4 -> Art1 Adj2 N1
+NP4 -> Art1 Adj2 Npl1
+
+
+VP5 -> V1 N4
+VP5 -> V2 N3
+VP5 -> V2 Npl3
+VP5 -> V1 Art1 N3
+VP5 -> V1 Art1pl Npl3
+VP5 -> V1 Adv1 Adj3
+VP5 -> V2 Adv1 Adj2
+VP5 -> V1 Adj1 N3
+VP5 -> V1 Adj1 Npl3
+VP5 -> V1 Adj2 N2
+VP5 -> V1 Adj2 Npl2
+VP5 -> V1 Adj3 N1
+VP5 -> V1 Adj3 Npl1
+VP5 -> V2 Adj1 N2
+VP5 -> V2 Adj1 Npl2
+VP5 -> V2 Adj2 N1
+VP5 -> V2 Adj2 Npl1
+VP5 -> V1 Adj1 Adj1 N2
+VP5 -> V1 Adj1 Adj1 Npl2
+VP5 -> V1 Adj1 Adj2 N1
+VP5 -> V1 Adj1 Adj2 Npl1
+VP5 -> V1 Adj2 Adj1 N1
+VP5 -> V1 Adj2 Adj1 Npl1
+VP5 -> V2 Adj1 Adj1 N1
+VP5 -> V2 Adj1 Adj1 Npl1
+VP5 -> VP4 Inter1
+VP5 -> VP4 Inter1
+
+VP2 -> V1 N1
+VP2 -> V1 Npl1
+VP2 -> V2
+
+VP3 -> V1 N2
+VP3 -> V1 Npl2
+VP3 -> V1 Art1 N1
+VP3 -> V1 Art1pl Npl1
+VP3 -> V1 Adj1 N1
+VP3 -> V1 Adj1 Npl1
+VP3 -> V2 N1
+VP3 -> V2 Npl1
+
+VP4 -> V1 N3
+VP4 -> V1 Npl3
+VP4 -> V2 N2
+VP4 -> V2 Npl2
+VP4 -> V1 Art1 N2
+VP4 -> V1 Art1pl Npl2
+VP4 -> V1 Adj1 N2
+VP4 -> V1 Adj1 Npl2
+VP4 -> V1 Adj2 N1
+VP4 -> V1 Adj2 Npl1
+VP4 -> V1 Adj1 Adj1 N1
+VP4 -> V1 Adj1 Adj1 Npl1
+VP4 -> V1 Adv1 Adj2
+VP4 -> V2 Adj1 N1
+VP4 -> V2 Adj1 Npl1
+VP4 -> V2 Adv1 Adj1
+
+
+
+
+
+
+# lexicon
+N1 -> it | sword | Ghost | Jake | rhyme | grass | kite | bitch | I | toast | shit | mosque | wrap | you | lord | grace | wind | gauze | court | ice | weed | vein | heart | boo | slave | God | five | ear | skirt | face | fear | hood | meat | hog | glass | Tony | pass | dash | trash | bash | name | sound | guest | cat | crack | wig | Rome | Dirty | kid
+
+N2 -> Ghostface | Wu-Tang | weedgate | dentist | garlic | target | rumor | daddy | dancefloor | trauma | graveyard | whistle | thistle | surgeon | Wally | Devil | Roley | sunsplash | blessing | backdraft | contrast | eyelash | backstage | Love Jones | sugar | Oprah | jumprope | mayor | DC | mocha | sofa | Rover | sport's bar | lady | yoga | vulture | lingo | kool-aid | Tai-Chi | ketchup | whopper | John Paul | viking | Broad Street | hyphen
+
+N3 -> ice water | specialist | Duncan Hines | monument | sexcapade | hospital | Bernadette | goalie mask | autograph | Mrs. Dash | Johnny Blaze | acrobat | paddle ball | Castor Troy | Travolta | opera | Diana | Vanna White | Kennedy | vitamin | patriot
+
+N4 -> ravioli | swimsuit issue | cauliflower | Johnny Mathis | David Dinkins | Pamela Lee
+
+N5 -> Cappa Pendergrass | 5-9-70 | 7-15-4 | Queen Elizabeth
+
+Npl1 -> days | y'all | we | bags | dates | balls | darts | spells | steps | shelves | cops | rhymes | NARCs | hands | clothes | cakes | hats | spades | stones | g's
+
+Npl2 -> praises | villians | caskets | branches | needles | bitches | drawers | goggles | babies | sodas | cold cuts | children | passes | trenches | hickeys
+
+Npl3 -> avengers | bellyaches | writers | candy canes | four-pounders | laser guns | wallabies
+
+Npl4 -> supersoakers | binoculars
+
+Adj1 -> new | back | masked | white | dear | mad | gold | suede | nice | sweet | free | like | real | all | high | black | dead | heavy | ice | sour | more | two | young
+
+Adj2 -> waiting | thirsty | ripest | Dru Hill | half-baked | wristful | modern | big ass | hurting | heavy | screaming | pearly | special | biggest
+
+Adj3 -> glorious | heavyweight | metallic | Alaskan | fifty cent | icicle | tangerine | ebony | chunky ass
+
+Adj4 -> undercover
+
+V1 -> check | scream | come | hide | is | hit | might | spit | start | push | lay | sent | miss | rock | fog | ask | hear | take | snatch | play | tell | take | eat | fast | grow | crash | break | love | dumped | mash | slashed | fix | ask | watch | tell | bend | switch | glow | be | rub | cop | dare | catch | let | paid | bet | think | fuck
+
+V2 -> sharpen | yelling | talking | lounging | lifted | followed | laying | conquer | ziploc | wanna | planted | clashes | sprinkle | distract | dicking | dancing | laying | blazing | fucking | adjust | sliding
+
+V3 -> fingering | Malcolm X
+
+V4 -> meditated
+
+Adv1 -> when
+
+Adv2 -> only | never | truly
+
+Inter1 -> yo | yes
+
+Inter2 -> a-yo
+
+Prep1 -> to | at | 'bout | in | by | on | from | off | up | through | with | for
+
+Prep2 -> inside | over
+
+Art1 -> a | the
+
+Art1pl -> the
+
